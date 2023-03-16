@@ -9,7 +9,7 @@ export default function Project({ pos, src, title, date, skills, desc, link }: {
             {link != "" ?
             <Link href={link} target="_blank" className="h-8 hover:border-white border-lblue font-bold text-dorng bg-bblue border-[2px] rounded text-dm text-[16px] flex justify-center items-center">{title}</Link>
             :
-            <h3 className="h-8 border-white border-lblue font-bold text-dorng bg-bblue border-[2px] rounded text-dm text-[16px] flex justify-center items-center">{title}</h3>
+            <h3 className="h-8 border-lblue font-bold text-dorng bg-bblue border-[2px] rounded text-dm text-[16px] flex justify-center items-center">{title}</h3>
             }
             <Spacer wid={"2rem"} hgt={"0.5rem"}/>
             <Image
